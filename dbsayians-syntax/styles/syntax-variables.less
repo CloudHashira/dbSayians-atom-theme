@@ -1,0 +1,31 @@
+@import "colors";
+
+// This defines all syntax variables that syntax themes must implement when they
+// include a syntax-variables.less file.
+
+// General colors
+@syntax-text-color: @dbz_Sayian-blue;
+@syntax-cursor-color: @dbz_Goku-mui;
+@syntax-selection-color: lighten(@dbz_Vegeta-blue, 10%);
+@syntax-background-color: @very-dark-gray;
+
+// Guide colors
+@syntax-wrap-guide-color: alpha(@dbz_Goku-mui, 50%);
+@syntax-indent-guide-color: @dbz_Vegeta-ultrablue;
+@syntax-invisible-character-color: @dbz_Vegeta-ultrablue;
+
+// For find and replace markers
+@syntax-result-marker-color: @dbz_Vegeta-light-blue;
+@syntax-result-marker-color-selected: @dbz_Goku-mui;
+
+// Gutter colors
+@syntax-gutter-text-color: @dbz_Goku-ui;
+@syntax-gutter-text-color-selected: @syntax-gutter-text-color;
+@syntax-gutter-background-color: alpha(@dbz_Vegeta-ultrablue, 80%);
+@syntax-gutter-background-color-selected: @dbz_Vegeta-ultrablue;
+
+// For git diff info. i.e. in the gutter
+@syntax-color-renamed: @dbz_Sayian-blue;
+@syntax-color-added: @dbz_Sayian-yellow;
+@syntax-color-modified: @dbz_Goku-orange;
+@syntax-color-removed: @dbz_Sayian-red;
