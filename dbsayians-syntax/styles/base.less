@@ -35,7 +35,7 @@ atom-text-editor {
   .gutter .line-number.folded,
   .gutter .line-number:after,
   .fold-marker:after {
-    color: @dbz_Goku-ui;
+    color: @light-gray;
   }
 
   .invisible {
@@ -55,14 +55,14 @@ atom-text-editor {
 // Syntax styles
 
 .syntax--comment {
-  color: @dbz_Goku-ui;
+  color: @light-gray;
 }
 
 .syntax--keyword {
-  color: @dbz_Broly-purple;
+  color: @broly-purple;
 
   &.syntax--control {
-    color: @dbz_Broly-purple;
+    color: @broly-purple;
   }
 
   &.syntax--operator {
@@ -70,76 +70,75 @@ atom-text-editor {
   }
 
   &.syntax--other.syntax--special-method {
-    color: @dbz_Sayian-blue;
+    color: @vegeta-ultrablue;
   }
 
   &.syntax--other.syntax--unit {
-    color: @dbz_Broly-green;
+    color: @goku-orange;
   }
 }
 
 .syntax--storage {
-  color: @dbz_Broly-purple;
+  color: @broly-purple;
 }
 
 .syntax--constant {
-  color: @dbz_Broly-green;
+  color: @goku-orange;
 
   &.syntax--character.syntax--escape {
-    color: @dbz_Goku-rose;
+    color: @saiyan-blue;
   }
 
   &.syntax--numeric {
-    color: @dbz_Broly-green;
+    color: @goku-orange;
   }
 
   &.syntax--other.syntax--color {
-    color: @dbz_Goku-rose;
+    color: @saiyan-blue;
   }
 
   &.syntax--other.syntax--symbol {
-    color: @dbz_Goku-orange;
+    color: @broly-green;
   }
 }
 
-.syntax--variable {
-  color: @dbz_Sayian-red;
-
+  .syntax--variable {
+    color: @saiyan-red;
+  }
   &.syntax--interpolation {
-    color: darken(@dbz_Sayian-red, 10%);
+    color: darken(@saiyan-red, 10%);
   }
 
   &.syntax--parameter.syntax--function {
     color: @syntax-text-color;
   }
-}
 
 .syntax--invalid.syntax--illegal {
-  background-color: @dbz_Sayian-red;
+  background-color: @saiyan-red;
   color: @syntax-background-color;
 }
 
 .syntax--string {
-  color: @dbz_Goku-orange;
+  color: @broly-green;
 
 
   &.syntax--regexp {
-    color: @dbz_Goku-rose;
+    color: @saiyan-blue;
 
     .syntax--source.syntax--ruby.syntax--embedded {
-      color: @dbz_Broly-green;
+      color: @goku-orange;
     }
   }
 
   &.syntax--other.syntax--link {
-    color: @dbz_Sayian-red;
+    color: @saiyan-red;
   }
 }
 
 .syntax--punctuation {
   &.syntax--definition {
     &.syntax--comment {
-      color: @dbz_Goku-ui;
+      color: @light-gray;
     }
 
     &.syntax--string,
@@ -151,89 +150,89 @@ atom-text-editor {
 
     &.syntax--heading,
     &.syntax--identity {
-      color: @dbz_Sayian-blue;
+      color: @vegeta-ultrablue;
     }
 
     &.syntax--bold {
-      color: @dbz_Sayian-yellow;
+      color: @saiyan-yellow;
       font-weight: bold;
     }
 
     &.syntax--italic {
-      color: @dbz_Broly-purple;
+      color: @broly-purple;
       font-style: italic;
     }
   }
 
   &.syntax--section.syntax--embedded {
-    color: darken(@dbz_Sayian-red, 10%);
+    color: darken(@saiyan-red, 10%);
   }
 
 }
 
 .syntax--support {
   &.syntax--class {
-    color: @dbz_Sayian-yellow;
+    color: @saiyan-yellow;
   }
 
   &.syntax--function  {
-    color: @dbz_Goku-rose;
+    color: @saiyan-blue;
 
     &.syntax--any-method {
-      color: @dbz_Sayian-blue;
+      color: @vegeta-ultrablue;
     }
   }
 }
 
 .syntax--entity {
   &.syntax--name.syntax--function {
-    color: @dbz_Sayian-blue;
+    color: @vegeta-ultrablue;
   }
   &.syntax--name.syntax--type {
-    color: @dbz_Sayian-yellow;
+    color: @saiyan-yellow;
     text-decoration: underline;
   }
 
   &.syntax--other.syntax--inherited-class {
-    color: @dbz_Goku-orange;
+    color: @broly-green;
   }
   &.syntax--name.syntax--class, &.syntax--name.syntax--type.syntax--class {
-    color: @dbz_Sayian-yellow;
+    color: @saiyan-yellow;
   }
 
   &.syntax--name.syntax--section {
-    color: @dbz_Sayian-blue;
+    color: @vegeta-ultrablue;
   }
 
   &.syntax--name.syntax--tag {
-    color: @dbz_Sayian-red;
+    color: @saiyan-red;
     text-decoration: underline;
   }
 
   &.syntax--other.syntax--attribute-name {
-    color: @dbz_Broly-green;
+    color: @goku-orange;
 
     &.syntax--id {
-      color: @dbz_Sayian-blue;
+      color: @vegeta-ultrablue;
     }
   }
 }
 
 .syntax--meta {
   &.syntax--class {
-    color: @dbz_Sayian-yellow;
+    color: @saiyan-yellow;
   }
 
   &.syntax--link {
-    color: @dbz_Broly-green;
+    color: @goku-orange;
   }
 
   &.syntax--require {
-    color: @dbz_Sayian-blue;
+    color: @vegeta-ultrablue;
   }
 
   &.syntax--selector {
-    color: @dbz_Broly-purple;
+    color: @broly-purple;
   }
 
   &.syntax--separator {
@@ -248,48 +247,48 @@ atom-text-editor {
 
 .syntax--markup {
   &.syntax--bold {
-    color: @dbz_Broly-green;
+    color: @goku-orange;
     font-weight: bold;
   }
 
   &.syntax--changed {
-    color: @dbz_Broly-purple;
+    color: @broly-purple;
   }
 
   &.syntax--deleted {
-    color: @dbz_Sayian-red;
+    color: @saiyan-red;
   }
 
   &.syntax--italic {
-    color: @dbz_Broly-purple;
+    color: @broly-purple;
     font-style: italic;
   }
 
   &.syntax--heading .syntax--punctuation.syntax--definition.syntax--heading {
-    color: @dbz_Sayian-blue;
+    color: @vegeta-ultrablue;
   }
 
   &.syntax--inserted {
-    color: @dbz_Goku-orange;
+    color: @broly-green;
   }
 
   &.syntax--list {
-    color: @dbz_Sayian-red;
+    color: @saiyan-red;
   }
 
   &.syntax--quote {
-    color: @dbz_Broly-green;
+    color: @goku-orange;
   }
 
   &.syntax--raw.syntax--inline {
-    color: @dbz_Goku-orange;
+    color: @broly-green;
   }
 }
 
 .syntax--source.syntax--gfm .syntax--markup {
   -webkit-font-smoothing: auto;
   &.syntax--heading {
-    color: @dbz_Goku-orange;
+    color: @broly-green;
   }
 }
 
